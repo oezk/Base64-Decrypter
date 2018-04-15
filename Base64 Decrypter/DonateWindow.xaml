@@ -11,10 +11,8 @@
 		Icon="/broken-link.ico"
         Title="Donate" Height="120" Width="270">
 	<Grid>
-
+		<TextBlock HorizontalAlignment="Left" Margin="60,10,0,0" TextWrapping="Wrap" Text="Thank you for donating!" VerticalAlignment="Top" Width="142"/>
 		<Button Name ="PaypalBtn" Click="btnClick" Content="Paypal" HorizontalAlignment="Left" Margin="41,43,0,0" VerticalAlignment="Top" Width="75"/>
 		<Button Name ="VenmoBtn" Click="btnClick" Content="Venmo" HorizontalAlignment="Left" Margin="140,43,0,0" VerticalAlignment="Top" Width="75"/>
-		<TextBlock HorizontalAlignment="Left" Margin="60,10,0,0" TextWrapping="Wrap" Text="Thank you for donating!" VerticalAlignment="Top" Width="142"/>
-
 	</Grid>
 </Window>

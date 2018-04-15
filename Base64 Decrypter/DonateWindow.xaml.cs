@@ -1,12 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-
 namespace Base64_Decrypter
 {
-    /// <summary>
-    /// Interaction logic for DonateWindow.xaml
-    /// </summary>
     public partial class DonateWindow : Window
     {
         public const string PAYPAL = "https://paypal.me/oezk";
@@ -20,12 +16,8 @@ namespace Base64_Decrypter
         // For button clicks
         private void btnClick(object sender, RoutedEventArgs e)
         {
-
             Button btn = (Button)sender;
             string btnName = btn.Name;
-
-
-
 
             switch (btnName)
             {
@@ -40,8 +32,6 @@ namespace Base64_Decrypter
                 default:
                     break;
             }
-
-
         }
 
         private void Paypal()
