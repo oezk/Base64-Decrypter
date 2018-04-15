@@ -226,7 +226,7 @@ namespace Base64_Decrypter
         // Help messagebox
         private void Help()
         {
-            System.Windows.MessageBox.Show("Base64 Decrypter is a program coded in C# that can be used to decrypt base64 links.\n\nEncrypted strings can be pasted into the Link and Key fields. If pasted into both boxes, the key text will be appened to the link text. You can also remove characters, words, or other phrases from the links/keys before or after their decryption by inserting phrases separated by spaces in the phrases text field.\n\nEnjoy and please consider donating! ", "Help", MessageBoxButton.OK, MessageBoxImage.Information);
+            System.Windows.MessageBox.Show("Base64 Decrypter is a program coded in C# that can be used to decrypt Base64 links.\n\nEncrypted strings can be pasted into the Link and Key fields. If pasted into both boxes, the key text will be appened to the link text. You can also remove characters, words, or other phrases from the links/keys before or after their decryption by inserting phrases separated by spaces in the phrases text field.\n\nEnjoy and please consider donating! ", "Help", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         // Opens a new window that gives you the option to donate. Opens links with default browser
